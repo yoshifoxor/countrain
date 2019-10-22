@@ -1,0 +1,4 @@
+node_modules
+fontawesome
+.eslintrc*
+config.js

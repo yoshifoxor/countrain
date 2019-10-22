@@ -1,0 +1,38 @@
+{
+  "name": "countrain",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "build": "yarn install --production",
+    "start": "node ./bin/www",
+    "webpack": "webpack --mode production --config webpack.config.js"
+  },
+  "author": "Yoshihisa Adachi",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.3",
+    "dateformat": "^3.0.3",
+    "express": "^4.17.1",
+    "helmet": "^3.15.0",
+    "jmespath": "^0.15.0",
+    "morgan": "^1.9.1",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-id-swiper": "^1.6.8",
+    "react-router-dom": "^4.3.1",
+    "serve-favicon": "^2.5.0",
+    "storage-control": "^1.0.0",
+    "superagent": "^3.8.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "eslint": "^6.3.0",
+    "prettier-eslint": "^9.0.0",
+    "prettier-eslint-cli": "^5.0.0",
+    "webpack": "^4.26.1",
+    "webpack-cli": "^3.1.2"
+  }
+}
