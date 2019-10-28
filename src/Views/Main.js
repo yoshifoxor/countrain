@@ -79,7 +79,7 @@ export default class Main extends Component {
           {this.state.countdownList}
         </Swiper>
 
-        <h3 className="text-center">※実際の時間とは異なる場合があります。</h3>
+        <h5 className="text-center">※実際の時間とは異なる場合があります。</h5>
       </div>
     );
   }

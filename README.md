@@ -2,6 +2,10 @@
 
 電車の出発時刻をカウントダウンするWebアプリ
 
+# DEMO
+
+![](demo/screenshot.jpg)
+
 
 # 使い方
 ※ Node.js のLTS版（v8.x.x）を事前にインストールする必要があります。v8.9.4での動作を確認済みです。
@@ -12,9 +16,5 @@ Node.jsをインストール後、任意の場所にプロジェクトフォル�
 1. npm install
 1. npm start
 
-#
-
-
 # 作成者
-安達悦久
-
+yoshifoxor
